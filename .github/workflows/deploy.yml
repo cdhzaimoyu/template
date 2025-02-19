@@ -37,4 +37,8 @@ jobs:
         user_name: ${{ secrets.MY_USER_NAME }}
         user_email: ${{ secrets.MY_USER_EMAIL }}
         commit_message: 自动部署 # 部署时的 git 提交信息
+<<<<<<< HEAD
         run: npm test  # 运行测试
+=======
+        run: npm test  # 运行测试
+>>>>>>> 7f04ce7011f9e43b67cc5031acd21051054faa70
